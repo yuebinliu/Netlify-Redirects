@@ -1,0 +1,7 @@
+# 您的站点重定向规则
+www.example.com/* http://106.15.4.153:8085/:splat 200
+api.example.com/* http://106.15.4.153:8086/:splat 200
+admin.example.com/* http://106.15.4.153:8087/:splat 200
+
+# 可选：默认重定向（如果没有匹配的域名）
+/* https://your-fallback-site.com 302
